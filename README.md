@@ -2,26 +2,29 @@
 
 ## Instructions
 
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/iAmritMalviya/fullstack-assignment
-   cd fullstack-assignment
-   ```
+## Technology Used In Server:
 
-2. **Frontend:**
-   - Create a React app in the `frontend` folder.
-   - Follow the instructions in `frontend.md` to complete the frontend.
+- Programming Language: TypeScript
+- Web Framework: Express.js
+- Object Document Mapping (ODM): MongoDB
 
-3. **Backend:**
-   - Create a Node.js app in the `backend` folder.
-   - Follow the `backend.md` instructions to complete the backend.
+## Technology Used In Client:
 
-4. **Push Your Work:**
-   - Push both the frontend and backend apps to the same repository.
-   - Make sure the repository is public.
+- Programming Language: TypeScript
+- Reactjs
+- TailwindCss
+- Redux
 
-5. **Submit Your Work:**
-   - Paste the GitHub repository link in the Google form you received after pushing your code.
+## To Run Locally
 
----
+### server run
+- git clone https://github.com/moyuriakther/fullstack-assignment-future-skills
+- cd help-center-api-server
+- npm install
+- npm run start:dev
 
+### client run
+- git clone https://github.com/moyuriakther/fullstack-assignment-future-skills
+- cd help-center-api-client
+- npm install
+- npm run dev

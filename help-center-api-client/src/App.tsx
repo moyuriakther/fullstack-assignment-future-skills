@@ -2,7 +2,6 @@ import './App.css'
 import CardsSection from './Components/CardSection'
 import Footer from './Components/Footer'
 import Header from './Components/Header'
-// import SearchSection from './Components/SearchSection'
 
 function App() {
   
@@ -11,8 +10,7 @@ function App() {
     <>
       <div className="App" style={{ backgroundColor: "#ffffff" }}>
       <Header />
-      {/* <SearchSection /> */}
-      <CardsSection/>
+       <CardsSection/>
       <Footer />
     </div>
     </>

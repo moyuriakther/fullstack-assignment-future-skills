@@ -9,20 +9,25 @@ const { Search } = Input;
 
 
 const CardsSection: React.FC = () => {
-    const {data:cards } = useGetAllBlogsQuery({})
+    const {data:cards, isLoading } = useGetAllBlogsQuery({})
     console.log(cards)
     const [searchQuery, setSearchQuery] = useState<string>('');
 
-    // Function to handle search input
+    
     const handleSearch = (value: string) => {
       setSearchQuery(value.toLowerCase());
     };
   
-    // Filter cards based on the search query
+    
     const filteredBlogs = cards?.data?.filter((blog: any) =>
       blog.title.toLowerCase().includes(searchQuery) ||
       blog.description.toLowerCase().includes(searchQuery)
     );
+
+    if (isLoading) {
+        <p>Loading...</p>;
+      }
+
   return (
    <>
     <div className="bg-[#E9EAF6] text-center py-16">
