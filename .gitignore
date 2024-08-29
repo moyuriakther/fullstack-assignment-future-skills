@@ -1,0 +1,5 @@
+
+help-center-api-client/node_modules
+help-center-api-client/dist
+help-center-api-server/node_modules
+help-center-api-server/dist
